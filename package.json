@@ -1,0 +1,21 @@
+{
+  "name": "chat_cli",
+  "version": "1.0.0",
+  "description": "a unix like chat (thrugh processes)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start-dev": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "progress": "^2.0.3"
+  },
+  "devDependencies": {
+    "debug": "^4.3.1",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.3"
+  }
+}
