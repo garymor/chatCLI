@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "a unix like chat (thrugh processes)",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whatever/testing.git",
+    "typ": "svn",
+    "uri": "..."
+  },
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
@@ -11,7 +18,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "progress": "^2.0.3"
+    "progress": "^2.0.3",
+    "zeromq": "^5.2.0"
   },
   "devDependencies": {
     "debug": "^4.3.1",
