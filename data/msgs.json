@@ -1,11 +1,12 @@
 {
    "general": {
-        "welcome":" CLI-chat. choose your nick . thats it "
+        "welcome":" CLI-chat . thats it . insert desire nick !  "
     },
 
     "error": {
         "nmExist" : "its unfortunate but - the desire nickName is in use ",
         "nmEmpty" : "you must use a nick name",
-        "nmNotvalid" : "enter a human readable nick"
+        "nmNotvalid" : "enter a human readable nick",
+        "SrvrRuns" : "a chat server is runing .. joining- choose ur nick'"
     }
 }
